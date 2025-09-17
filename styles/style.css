@@ -1,0 +1,63 @@
+html {
+    /* px means "pixels". The base font size is now 10 pixels high */
+    font-size: 10px;
+    /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+    font-family: "JetBrains Mono", monospace;
+    background-color: #b02d41;
+  }
+body{
+    width: 600px;
+    margin: auto auto; 
+    background-color: #7dbbe6;
+    padding: 0 20px 20px 20px; 
+    border: 2px solid black;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #7dbbe6;
+    text-shadow: 3px 3px 1px black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  } 
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.done {
+    color: darkseagreen;
+    text-decoration: line-through solid black 2px;
+  }
+
+/* 去掉 ul 自带的小圆点 */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.dot-btn {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;   /* 圆形 */
+  border: none;
+  margin-right: 8px;    /* 和文字留点间距 */
+  background-color: black; /* 默认黑色，像列表符号 */
+  cursor: pointer;
+}
+
+.dot-btn:hover {
+  background-color: red; /* 鼠标移上去有高亮 */
+}
